@@ -1,0 +1,17 @@
+{
+  "name": "@zozs/grpc-rust-node",
+  "version": "0.1.0",
+  "description": "Rust <-> Node communication using gRPC",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Linus Karlsson <linus@zozs.se>",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.5.7",
+    "@grpc/proto-loader": "^0.6.9"
+  }
+}

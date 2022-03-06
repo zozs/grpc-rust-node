@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package rustnodegrpc;
+
+service Stats {
+	rpc Mean (MeanRequest) returns (MeanResponse);
+}
+
+message MeanRequest {
+	int32 a = 1;
+	int32 b = 2;
+}
+
+message MeanResponse {
+	double mean = 1;
+}
